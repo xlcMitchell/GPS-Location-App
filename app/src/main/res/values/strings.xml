@@ -2,4 +2,9 @@
     <string name="app_name">GPS Location App</string>
     <string name="locate_me">Locate Me</string>
     <string name="locate_places_on_a_map">Locate Places On A Map</string>
+    <string name="no_permission_text">No permission</string>
+    <string name="title_activity_locate_me_maps">LocateMeMapsActivity</string>
+    <string name="gps_location_app">GPS Location App</string>
+    <string name="locate_places_on_a_map1">Locate Places on a Map</string>
+    <string name="locate_me1">Locate Me</string>
 </resources>
