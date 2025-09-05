@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GPS Location App</string>
+    <string name="locate_me">Locate Me</string>
+    <string name="locate_places_on_a_map">Locate Places On A Map</string>
 </resources>
