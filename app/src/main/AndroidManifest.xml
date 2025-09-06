@@ -5,6 +5,8 @@
     <!-- Always use this permission -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- Include only if you need precise location -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -31,6 +33,10 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="YOUR_API_KEY" />
 
+        <activity
+            android:name=".MapSearchActivity"
+            android:exported="false"
+            android:label="@string/title_activity_map_search" />
         <activity
             android:name=".LocateMeMapsActivity"
             android:exported="false"
