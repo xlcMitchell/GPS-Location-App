@@ -8,4 +8,5 @@
     <string name="locate_places_on_a_map1">Locate Places on a Map</string>
     <string name="locate_me1">Locate Me</string>
     <string name="title_activity_map_search">MapSearchActivity</string>
+    <string name="back_to_main">Back to Main</string>
 </resources>

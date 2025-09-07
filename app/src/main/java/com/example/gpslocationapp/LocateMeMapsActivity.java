@@ -73,8 +73,8 @@ public class LocateMeMapsActivity extends FragmentActivity implements OnMapReady
                 == PackageManager.PERMISSION_GRANTED) {
             locationManager.requestLocationUpdates(
                     LocationManager.GPS_PROVIDER,
-                    5000, // 5 seconds
-                    2,   // 10 meters
+                    1000, // 5 seconds
+                    1,   // 10 meters
                     this
             );
         }
